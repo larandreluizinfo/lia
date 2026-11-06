@@ -57,6 +57,17 @@ Não precisa de placa de vídeo. O desenho e a voz rodam na CPU.
 
 ## Instalação
 
+### Baixar o projeto
+
+```powershell
+git clone https://github.com/larandreluizinfo/lia.git
+cd lia
+```
+
+Também dá para baixar o ZIP em
+[github.com/larandreluizinfo/lia](https://github.com/larandreluizinfo/lia) e
+extrair em qualquer pasta.
+
 ### Windows (um comando)
 
 ```powershell
