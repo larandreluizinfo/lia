@@ -1,0 +1,23 @@
+# Para instalar o PyTorch (CPU, ~200 MB):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Depois:
+#   pip install -r requirements.txt
+
+# --- Núcleo (totem de feira) ---
+torch>=2.2
+numpy>=1.26,<3
+kokoro>=0.9.4
+misaki>=0.9
+espeakng-loader>=0.2.4
+soundfile>=0.12
+pygame>=2.5
+requests>=2.31
+qrcode>=7.4
+
+# --- Opcional: webcam para cumprimentar quem chega ---
+# O OpenCV 5 removeu o CascadeClassifier usado pelo modo presença.
+opencv-python-headless>=4.8,<5
+
+# --- Opcional: modo microfone (python run.py --microfone) ---
+faster-whisper>=1.0.3
+sounddevice>=0.4.6
